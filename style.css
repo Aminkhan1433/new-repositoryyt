@@ -1,0 +1,367 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50%;
+    margin-top: 30px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: white;
+    height: 100px;
+}
+
+
+a{
+    text-decoration: none;
+    color: #888;
+}
+
+
+header div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30%;
+}
+
+
+.headerbtm{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.headerbtm button{
+    background: linear-gradient(95.2deg, #B90160 2.23%, #2E3192 99.51%);
+    color: white;
+    border: none;
+    width: 160px;
+    height: 60px;
+    border-radius: 30px;
+    font-size: 20px;
+}
+
+
+.headerbtm h1{
+    width: 596px;
+    height: 119px;
+    font-size: 50px;
+}
+
+
+.h-1{
+    font-size: 60px;
+    text-align: center;
+}
+
+
+.card {
+    width: 360px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 0 45px pink;
+    border-radius: 20px;
+    padding-bottom: 10px;
+}
+
+
+.card img{
+    width: 100%;
+    border-radius: 20px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-bottom: 250px;
+    gap: 2%;
+}
+
+
+.mainbtm{
+    width: 100%;
+    background: linear-gradient(94.31deg, rgba(212, 20, 90, 0.25) 0.96%, rgba(46, 49, 146, 0.25) 104.83%);
+    height: 357px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+
+.mainbtm .box{
+    width: 336px;
+    height: 187px;
+    border-radius: 9px;
+    box-shadow: 0px 0px 30px 0px #00000040;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 500px;
+}
+
+
+
+footer div{
+    width: 224px;
+    height: 83px;
+    margin-top: 90px;
+}
+
+
+
+
+
+
+
+@media (max-width:768px) {
+    main{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+
+    main .card{
+        width: 90%;
+        height: 600px;
+    }
+
+
+    main .card div{
+        padding-top: 40px;
+    }
+
+    .headerbtm h1,button,img{
+        width: 368px;
+    }
+
+
+    header a{
+        display: none;
+    }
+
+
+    .headerbtm button{
+        margin-top: 70px;
+    }
+
+
+    .headerbtm{
+        margin-left: 20px;
+    }
+
+    header{
+        padding-left: 30px;
+    }
+
+
+    .mainbtm{
+        flex-direction: column;
+        gap: 20px;
+        height: 900px;
+    }
+
+
+
+    footer img{
+        width: 33px;
+        height: 33px;
+    }
+
+
+}
+
+
+
+@media (max-width:420px) {
+    .headerbtm img{
+        display: none;
+    }
+
+
+    .headerbtm h1{
+        width: 200px;
+        font-size: 40px;
+        margin-right: 120px;
+    }
+
+    .headerbtm button{
+        margin-top: 90px;
+    }
+
+    header{
+        padding-left: 100px;
+        margin-bottom: 30px;
+    }
+
+    .h-1{
+        font-size: 40px;
+        margin-top: 30px;
+        margin-top: 60px;
+    }
+
+
+    .mainbtm .box{
+        width: 300px;
+    }
+
+
+    footer{
+        flex-direction: column;
+    }
+
+
+    main{
+        gap: 50px;
+    }
+}
+
+
+
+.box-2{
+    background-image: url(./Rectangle\ 18\ \(1\).png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+#form-1{
+    background-color: white;
+    width: 1180px;
+    height: 392px;
+    box-shadow: 0px 0px 35px 0px #D4145A40;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-image: url(./Vector.svg);
+    background-repeat: no-repeat;
+    background-position-x: 950px;
+    background-position-y: 100px;
+}
+
+
+
+input{
+    width: 362px;
+    height: 50px;
+    border-radius: 20px;
+    border: 1px solid;
+    padding-left: 5px;
+}
+
+
+textarea{
+    width: 749px;
+    height: 81px;
+    border-radius: 9px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+
+.box-2 div{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+
+.box-2 h1{
+    width: 100%;
+    margin-left: 37%;
+}
+
+
+.box-2 button{
+    width: 169px;
+    height: 42px;
+    background: linear-gradient(96.12deg, #D4145A -21.03%, #3D5BF5 103.56%);
+    border-radius: 9px;
+    color: #fff;
+    border: none;
+}
+
+
+.textarea{
+    width: 100%;
+    margin-left: 18%;
+}
+
+
+
+@media (max-width:768px) {
+    #form-1{
+          background-image: url(./Mask\ Group\ \(1\).png);
+          background-size: cover;
+          width: 80%;
+          background-repeat: no-repeat;
+    }
+
+
+    input{
+        width: 200px;
+    }
+
+
+    .box-2 h1{
+        margin-left: 25%;
+    }
+
+    .textarea{
+        width: 400px;
+        margin-left: 2%;
+    }
+}
+
+
+@media (max-width:420px) {
+    input{
+        width: 90%;
+    }
+
+    #form-1 div{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        flex-wrap: wrap;
+        margin-left: 20px;
+    }
+
+    .textarea{
+        width: 90%;
+    }
+}
